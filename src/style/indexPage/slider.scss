@@ -1,0 +1,35 @@
+
+.slick-list{
+
+  height: 350px;
+
+  margin-bottom: 25px;
+
+  .slick-slide img{
+
+    width: 100%;
+  }
+
+}
+
+.iziModal-wrap .slick-prev{
+
+  left: 0;
+  z-index: 9999;
+
+}
+
+.iziModal-wrap .slick-next{
+  right: 12px;
+  z-index: 9999;
+}
+
+.iziModal-wrap .slick-next::before{
+  font-size: 31px;
+  color: #227ec7;
+}
+
+.iziModal-wrap .slick-prev::before{
+  font-size: 31px;
+  color: #227ec7;
+}

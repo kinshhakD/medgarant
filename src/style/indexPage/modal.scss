@@ -1,0 +1,70 @@
+.modal-container{
+
+  padding: 0 20px;
+
+}
+
+
+
+.modal-service{
+
+  margin-bottom: 25px;
+
+  text-align: center;
+  color: $colorModal;
+  font-size: 48px;
+}
+
+.modal-description{
+
+  margin-bottom: 25px;
+
+  color: $colorModal;
+  line-height: 1.6;
+  font-size: 18px;
+  font-weight: 500;
+
+
+}
+
+.modal-list-container{
+
+  padding: 0 15px;
+
+}
+
+.modal-list-block{
+
+  margin-bottom: 15px;
+  margin-bottom: 50px;
+
+  .modal-list-flex{
+
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+    font-style: italic;
+    color: $colorModal;
+    font-weight: 700;
+    font-size: 24px;
+
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #ffffff, #367d92, #6A9393, #ffffff ) 47% 0%;
+
+    .modal-list-service{
+
+      padding-left: 25px;
+
+    }
+
+    .modal-list-price{
+
+      padding-right: 25px;
+    }
+
+
+  }
+
+
+}

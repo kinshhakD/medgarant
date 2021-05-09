@@ -1,0 +1,50 @@
+
+
+
+  .flex-box{
+    margin-bottom: 5em;
+  }
+
+  .box-image{
+
+    margin-bottom: 25px;
+
+    .image-inner{
+      height: 100%;
+      width: 100%;
+      border-radius: 10px;
+      transition: 1s;
+      cursor: pointer;
+
+    }
+    .image-inner:hover{
+      transform: scale(1.1);
+    }
+
+  }
+
+  .flex-title{
+    font-size: 32px;
+    color: #6495ed;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  .block-list{
+    list-style-type: none;
+  }
+
+  .list-item{
+
+    padding: 0px 0px 0px 15px;
+  }
+
+  .list-item::before{
+    content: "\2022";
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    padding-left: 2px;
+  }

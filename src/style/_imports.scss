@@ -1,0 +1,23 @@
+@import './_vars';
+
+
+// mainPage
+@import './indexPage/header.scss';
+@import './indexPage/menu.scss';
+@import './indexPage/services.scss';
+@import './indexPage/main.scss';
+@import './indexPage/footer.scss';
+@import './indexPage/buttons.scss';
+@import './indexPage/modal.scss';
+@import './indexPage/slider.scss';
+
+
+// about
+@import './aboutModal/about.scss';
+
+
+
+
+// Modules
+@import '~slick-carousel/slick/slick', '~slick-carousel/slick/slick-theme';
+@import '/node_modules/izimodal/css/iziModal.css';
